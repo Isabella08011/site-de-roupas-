@@ -1,0 +1,65 @@
+body {
+    font-family: 'times', arial, sans-serif; 
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 5px;
+}
+
+header {
+    background-color: palevioletred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: black;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3px;
+    padding: 15px;
+    text-align: center;
+}
+
+.imagem-produto {
+    max-width: 100%; /* Para que a imagem não ultrapasse a largura da seção */
+    height: auto; /* Para manter a proporção da imagem */
+}
+
+button {
+    background-color: rgb(219, 75, 123);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: #5c00b3; /* Cor do botão quando passar o mouse */
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
